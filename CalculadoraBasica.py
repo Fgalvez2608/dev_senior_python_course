@@ -1,5 +1,5 @@
 print("Bienvenido a la Calculadora Basica")
-
+#funcion que coonvierte el parametro de entrada en flotante y retorna: True y si no se puede convertir retorna:
 def isFloat(value):
     try:
         float(value)
