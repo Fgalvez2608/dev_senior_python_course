@@ -1,4 +1,6 @@
 # dev_senior_python_course
 This repository is to keep the track for all the python course classes.
-1. Clase 1: Instalaciones de Python, VsCode con extensiones, Git, Github, Fork (Configuracion de ambiente de trabajo). 22 de octubre 2024
-2. Clase 2: tipos de datos, variables, operadores aritmeticos, operadores logicos, operadores relacionales, ejercicio calculadora basica y manejo de Fork. 24 de octubre de 2024
+1. Class 1: Python installations, VsCode with extensions, Git, Github, Fork (work environment configuration). 22 of october 2024
+2. Class 2: data types, variables, arithmetic operators, logical operators, relational operators, basic calculator exercise and Fork management. 24 of octber de 2024
+3. Clase 2: resolution of exercises proposed by the teacher (length unit converter - 2 number logic comparator - 
+voting age verifier). 25 of october 2024
