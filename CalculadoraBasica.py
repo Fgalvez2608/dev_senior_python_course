@@ -8,19 +8,20 @@ def isFloat(value):
         return False
 
 inputUsuario1 = input("Ingresa el numero 1: ")
-isFloat = isFloat(inputUsuario1)
+isFloat1 = isFloat(inputUsuario1)
 # num1 = float(inputUsuario1) 
 #Validacion si el dato ingresado por el usuario es numerico
-if not isFloat:
-    num1 = float(input("Ingresa el numero 1 nuevamente: "))
+if not isFloat1:
+    inputUsuario1 = input("Ingresa el numero 1 nuevamente: ")
+num1 = float(inputUsuario1)
 
 inputUsuario2 = input("Ingresa el numero 2: ")
+isFloat2 = isFloat(inputUsuario2)
 # num2 = float(inputUsuario2)
 #Validacion si el dato ingresado por el usuario es numerico
-isNumeric2 = inputUsuario2.isnumeric()
-if not isNumeric2:
-    num2 = float(input("Ingresa el numero 2 nuevamente: "))
-
+if not isFloat2:
+    inputUsuario2 = input("Ingresa el numero 2 nuevamente: ")
+num2 = float(inputUsuario2)
 print("")
 
 suma = num1 + num2
