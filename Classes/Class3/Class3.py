@@ -5,10 +5,14 @@ if: se usa para verificar si una condiciones es verdadera
 elif: significa "else if" y se usa para actuar si la primera condición no es verdadera
 else: se usa para actuar en caso de que ninguna condición sea verdadera
 """
+# The code snippet `age = int(input("Ingresa tu age: "))` is prompting the user to enter their age as
+# an input, converting that input to an integer, and storing it in the variable `age`.
 age = int(input("Ingresa tu age: "))
 country = input("Ingresa tu pais: ")
 userHasDNI = True
 
+# The code snippet you provided is using conditional statements (`if`, `elif`, `else`) to determine
+# whether a person is of legal age to buy alcoholic beverages based on their age and country.
 if age >= 21 :
     print("Eres mayor de age y puedes comprar bebidas alcoholicas en USA")
 elif age >= 18:
@@ -49,6 +53,9 @@ for i in range(0, 10, 2):#la funcion range me da un rango de trabajo
 print("")
 print("################################################")
 #ejemplo de while
+# The code snippet you provided is using a `while` loop to simulate a scenario where a student is
+# being checked for their eligibility to buy alcoholic beverages based on their age and country.
+# Here's a breakdown of what the code is doing:
 user2HasDNI = True
 studentNumber = 0
 while user2HasDNI:
@@ -68,6 +75,8 @@ while user2HasDNI:
 print("")
 print("################################################")
 #uso de break y continue para buenas practicas de codificacion y legibilidad
+# The code snippet you provided is demonstrating the use of `break` and `continue` statements within
+# `for` loops for control flow in Python. Here's a breakdown of what each part of the code does:
 for i in range(10):
     if i == 5:
         break
@@ -80,6 +89,11 @@ for i in range(10):
 print("")
 print("################################################")
 #Ejemplo de uso de break y continue
+# The code snippet you provided is setting `user3HasDNI` to `True` and then entering a `while` loop
+# that continues as long as `user3HasDNI` is `True`. Within the loop, it prompts the user to input
+# their age and country, converts the age input to an integer, and stores it in `age2`. It then checks
+# the conditions based on the age and country input to determine if the user can buy alcoholic
+# beverages in different countries (USA, COL, GER).
 user3HasDNI = True
 while user3HasDNI:
     age2 = int(input("Ingresa tu age: "))
@@ -100,6 +114,13 @@ while user3HasDNI:
         print("")
 print("")
 print("################################################")
+# The code snippet `for student in range(10):` is setting up a loop that will iterate 10 times. Within
+# each iteration, the user is prompted to input their age and country. The code then checks the
+# conditions based on the age and country input to determine if the user can buy alcoholic beverages
+# in different countries (USA, COL, GER). Depending on the age and country input, the code will print
+# out messages indicating whether the user can buy alcoholic beverages in a specific country or not.
+# If the user does not meet the age and country criteria, the variable `user2HasDNI` is set to `False`
+# and a message indicating that the user cannot buy alcoholic beverages is printed.
 for student in range(10):
     age2 = int(input("Ingresa tu age: "))
     country2 = input("Ingresa tu pais: ")
@@ -119,6 +140,11 @@ for student in range(10):
         print("")
 print("")
 print("################################################")
+# The code snippet you provided is setting `studenWithoutDNI` to 0 and then entering a `while` loop
+# that will continue as long as `studenWithoutDNI` is less than or equal to 3. Within each iteration
+# of the loop, the user is prompted to input their age and country. The code then checks the
+# conditions based on the age and country input to determine if the user can buy alcoholic beverages
+# in different countries (USA, COL, GER).
 studenWithoutDNI = 0
 while studenWithoutDNI <= 3:
     age2 = int(input("Ingresa tu age: "))
@@ -139,6 +165,10 @@ while studenWithoutDNI <= 3:
         print("")
 print("")
 print("################################################")
+# The code snippet you provided is setting `studen2WithoutDNI` to 0 and then entering a `for` loop
+# that will iterate 10,000 times. Within each iteration of the loop, the user is prompted to input
+# their age and country. The code then checks the conditions based on the age and country input to
+# determine if the user can buy alcoholic beverages in different countries (USA, COL, GER).
 studen2WithoutDNI = 0
 for student in range(10000):
     if studen2WithoutDNI == 3:
@@ -162,6 +192,14 @@ for student in range(10000):
         print("")
 print("")
 print("################################################")
+# The code snippet you provided is setting `studen3WithoutDNI` to 0 and then entering a `for` loop
+# that will iterate 5 times. Within each iteration of the loop, the user is prompted to input their
+# age and country. The code then checks if the age input is less than or equal to 14. If the age
+# condition is met, it prints messages indicating that a DNI (Documento Nacional de Identidad) is
+# assigned to the student, the student is registered in the system, and that the student is a native.
+# It then continues to print additional information about the student. If the student is not a native,
+# the code sets `isForeign` to `False` (although it is not used in this scenario). The `continue`
+# statement is used to skip the remaining code block and move to the next iteration of the loop.
 studen3WithoutDNI = 0
 for student in range(5):
     age2 = int(input("Ingresa tu age: "))
@@ -185,6 +223,9 @@ for student in range(5):
             print("Este estudiante ...")
 print("")
 print("################################################")
+# The code snippet you provided is setting `studen4WithoutDNI` to 0 and then entering a `for` loop
+# that will iterate 5 times. Within each iteration of the loop, the user is prompted to input their
+# age and country. Here's a breakdown of what the code is doing:
 studen4WithoutDNI = 0
 for student in range(5):
     age2 = int(input("Ingresa tu age: "))
