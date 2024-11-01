@@ -6,4 +6,4 @@ This repository is to keep the track for all the python course classes.
 voting age verifier) and intermediate excercises(Advance calculator - Age Country Verification - Discount Calculation - Leap Year Verification - Number Comparator). 25 of october 2024
 4. Class 3: Conditional statements if, elif and else; loops for and while with break and continue; resolution of exercises. 29 of october 2024
 5. Class 3: resolution of exercises proposed by the teacher (Guess the number - Note Calculator - Odd Even Numbers - Options Menu) 30 of october 2024
-6. Class 4:
+6. Class 3: resolution of exercises proposed by the teacher (Calculate the Hypotenuse of a Right Triangle - Sum of Natural Numbers - Power Calculation - Factorial Calculation - Fibonacci series) 01 of november 2024
