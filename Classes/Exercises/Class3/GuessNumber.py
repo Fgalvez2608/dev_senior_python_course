@@ -6,6 +6,7 @@ si su respuesta es mayor o menor al número secreto. El programa se detiene cuan
 import random
 
 # Generar un número aleatorio entre 1 y 10
+# This Python code is a simple number guessing game. Here's a breakdown of what each part does:
 secretNumber = random.randint(1, 10)
 guess = False
 
