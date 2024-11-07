@@ -8,3 +8,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 5. Class 3: resolution of exercises proposed by the teacher (Guess the number - Note Calculator - Odd Even Numbers - Options Menu) 30 of october 2024
 6. Class 3: resolution of exercises proposed by the teacher (Calculate the Hypotenuse of a Right Triangle - Sum of Natural Numbers - Power Calculation - Factorial Calculation - Fibonacci series) 01 of november 2024.
 7. managing a drugstore - use of lists, conditionals, nested conditionals, for & while loops and use of functions like len(), range(), lower(), append(), capitalize() 05 of november 2024.
+8. managing a pet store's inventory and sales - use of lists, conditionals, nested conditionals, for & while loops and use of functions 06 of november 2024.
