@@ -7,5 +7,6 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 4. Class 3: Conditional statements if, elif and else; loops for and while with break and continue; resolution of exercises. 29 of october 2024.
 5. Class 3: resolution of exercises proposed by the teacher (Guess the number - Note Calculator - Odd Even Numbers - Options Menu) 30 of october 2024
 6. Class 3: resolution of exercises proposed by the teacher (Calculate the Hypotenuse of a Right Triangle - Sum of Natural Numbers - Power Calculation - Factorial Calculation - Fibonacci series) 01 of november 2024.
-7. managing a drugstore - use of lists, conditionals, nested conditionals, for & while loops and use of functions like len(), range(), lower(), append(), capitalize() 05 of november 2024.
-8. managing a pet store's inventory and sales - use of lists, conditionals, nested conditionals, for & while loops and use of functions 06 of november 2024.
+7. Class 4: managing a drugstore - use of lists, conditionals, nested conditionals, for & while loops and use of functions like len(), range(), lower(), append(), capitalize() 05 of november 2024.
+8. Class 4: managing a pet store's inventory and sales - use of lists, conditionals, nested conditionals, for & while loops and use of functions 06 of november 2024.
+9. Class 5: registration management; student registration, assign teachers to courses, assign schedules to courses; creating functions and using them. 07 of november 2024.
