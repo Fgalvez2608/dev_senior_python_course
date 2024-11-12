@@ -10,3 +10,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 7. Class 4: managing a drugstore - use of lists, conditionals, nested conditionals, for & while loops and use of functions like len(), range(), lower(), append(), capitalize() 05 of november 2024.
 8. Class 4: managing a pet store's inventory and sales - use of lists, conditionals, nested conditionals, for & while loops and use of functions 06 of november 2024.
 9. Class 5: registration management; student registration, assign teachers to courses, assign schedules to courses; creating functions and using them. 07 of november 2024.
+10. Class5: improved registration management; modify student, delete student, modify teacher, modify schedule, system summary. 12 of november 2024.
