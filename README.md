@@ -13,3 +13,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 10. Class5: improved registration management; modify student, delete student, modify teacher, modify schedule, system summary. 12 of november 2024.
 11. Class 6: Data Collections; syntax and uses of Lists, tuples, sets and dictionaries. 12 of november 2024.
 12. Class 6: Mechanical workshop inventory management - CRUD, pending options to create product and update inventory and progress of challenge 1. 13 of november 2024.
+13. Challenge1: adjust main menu with try catch, and adjust experiment log with while loop for correct date validation. 14 of november 2024.
