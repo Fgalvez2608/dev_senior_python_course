@@ -1,9 +1,9 @@
 #InvestigacionCientifica
-
+from prettytable import PrettyTable # importar la libreria prettytable para trabajar con tablas
 from datetime import datetime #importar la libreria datetime para trabajar con fechas
 
 #LISTAS
-experimentos = [] #LISTA de diccionarios para almacenar los datos de cada experimento registrado
+experimentos = [] #LISTA para almacenar los experimentos
 resultadosExperimentos = [] #LISTA para almacenar los resultados de cada experimento
 
 #FUNCIONES
@@ -40,25 +40,21 @@ def registrarExperimento():
 # 2.Funcion para visualizar un resultado
 def visualizarResultados():
     """
-    Visualiza la lista de experimentos registrados en la base de datos
-    de experimentos.
-
-    Muestra la siguiente informacion por cada experimento:
-        - nombre del experimento
-        - fecha de realizacion del experimento
-        - categoria del experimento
-        - resultados del experimento
-
-    Si no hay experimentos registrados, muestra un mensaje de error.
+    Esta funcion visualiza todos los experimentos registrados en una tabla.
+    Si no hay experimentos registrados, se muestra un mensaje de que no hay experimentos registrados.
     """
     if experimentos:
-        print("Lista de Experimentos:")
-        for experimento in experimentos:
-            print(f"Nombre Experimento: {experimento['nombre']} - Fecha Experimento: {experimento['fecha']} - Categoria: {experimento['categoria']} - Resultados: {experimento['resultado']}")
+        tablaExperimentos = PrettyTable() #Variable de tipo PrettyTable para almacenar los datos de cada experimento registrado por el usuario 
+        print("\n ------ VISUALIZAR EXPERIMENTOS ------")
+        tablaExperimentos.field_names = ["NOMBRE", "FECHA", "CATEGORIA", "DATOS"] #Variable de tipo string que almacena los nombres de las columnas de la tabla
+        for experimento in experimentos: #bucle para recorrer la lista experimentos
+            tablaExperimentos.add_row([experimento['nombre'], experimento['fecha'], experimento['categoria'], experimento['resultado']], divider=True) #linea de codigo que agrega los datos de cada experimento a la tabla en sus respectivas columnas
+            #print(f"Nombre Experimento: {experimento['nombre']} - Fecha Experimento: {experimento['fecha']} - Categoria: {experimento['categoria']} - Resultados: {experimento['resultado']}")
+            print(tablaExperimentos) #muestra la tabla en la consola
     else:
         print("No hay Experimentos Registrados!!!")
 
-
+print("")
 # Crear un Menu
 # This block of code creates a simple menu for a scientific research program. Here's what it does/Este bloque de código crea un menú simple para un programa de investigación científica:
 while True:
@@ -72,7 +68,7 @@ while True:
         print("")
 
         opcionMenuPrincipal = input("Seleccione una opcion: ")#Variable que almacena la opcion que elija el usuario en el menu principal
-    
+
         if opcionMenuPrincipal == "1":
             while True:
                 print("\n ------ GESTION DE EXPERIMENTOS ------")
