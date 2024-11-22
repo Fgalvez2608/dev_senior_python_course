@@ -15,3 +15,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 12. Class 6: Mechanical workshop inventory management - CRUD, pending options to create product and update inventory and progress of challenge 1. 13 of november 2024.
 13. Challenge1: adjust main menu with try catch, and adjust experiment log with while loop for correct date validation. 14 of november 2024.
 14. Class 7: project task management; use of try exception, classes, functions, creation of an object, creation of txt file; guide to carry out challenge 1. 14 of november 2024.
+15. Class 8: guide project for challenge 1. 21 of november 2024.
