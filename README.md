@@ -1,5 +1,7 @@
 # dev_senior_python_course
 This repository is to keep the track for all the python course classes and resolutions of exercises about each class.
+
+# UNIDAD 1
 1. Class 1: Python installations, VsCode with extensions, Git, Github, Fork (work environment configuration). 22 of october 2024.
 2. Class 2: data types, variables, arithmetic operators, logical operators, relational operators, basic calculator exercise and Fork management. 24 of octber de 2024.
 3. Clase 2: resolution of exercises proposed by the teacher basic excercises(length unit converter - 2 number logic comparator - 
@@ -16,3 +18,6 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 13. Challenge1: adjust main menu with try catch, and adjust experiment log with while loop for correct date validation. 14 of november 2024.
 14. Class 7: project task management; use of try exception, classes, functions, creation of an object, creation of txt file; guide to carry out challenge 1. 14 of november 2024.
 15. Class 8: guide project for challenge 1. 21 of november 2024.
+
+# UNIDAD 1
+1. Class 1: introduction to Object oriented programming, use of classes and objects, atributes and methods and inheritance. 22 of october 2024.
