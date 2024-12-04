@@ -21,3 +21,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 
 # UNIDAD 1
 1. Class 1: introduction to Object oriented programming, use of classes and objects, atributes and methods and inheritance. 22 of october 2024.
+2. Class 2: encapsulation, inheritance and polymorphism. 24 of octber de 2024.
