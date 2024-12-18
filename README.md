@@ -20,6 +20,7 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 15. Class 8: guide project for challenge 1. 21 of november 2024.
 
 # UNIDAD 1
-1. Class 1: introduction to Object oriented programming, use of classes and objects, atributes and methods and inheritance. 22 of october 2024.
-2. Class 2: encapsulation, inheritance and polymorphism. 24 of octber de 2024.
-3. Class 3: inheritance and polymorphism, abstract classes and interfaces. 25 of october 2024.
+1. Class 1: introduction to Object oriented programming, use of classes and objects, atributes and methods and inheritance. 28 of october 2024.
+2. Class 2: encapsulation, inheritance and polymorphism. 03 of december de 2024.
+3. Class 3: inheritance and polymorphism, abstract classes and interfaces. 05 of december 2024.
+4. Class 4: singleton and factory design pattern. 10 of december 2024.
