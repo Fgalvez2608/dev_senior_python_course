@@ -24,3 +24,4 @@ voting age verifier) and intermediate excercises(Advance calculator - Age Countr
 2. Class 2: encapsulation, inheritance and polymorphism. 03 of december de 2024.
 3. Class 3: inheritance and polymorphism, abstract classes and interfaces. 05 of december 2024.
 4. Class 4: singleton and factory design pattern. 10 of december 2024.
+5. Class 5: composition versus inheritance. 12 of december 2024.
